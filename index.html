@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retail Price Calculator</title>
+</head>
+<body>
+    <h1>Retail Price Calculator</h1>
+
+    <div>
+        <label for="wholesaleCost">Wholesale Cost (in Rands): R</label>
+        <input type="number" id="wholesaleCost" step="0.01">
+    </div>
+
+    <div>
+        <label for="markupPercentage">Markup Percentage: </label>
+        <input type="number" id="markupPercentage" step="0.01">
+    </div>
+
+    <button id="calculateButton">Calculate Retail Price</button>
+
+    <h2>Result</h2>
+    <p id="result">The item's retail price is: R<span id="retailPrice">0.00</span></p>
+
+    <script src="markUp.js"></script>
+</body>
+</html>
