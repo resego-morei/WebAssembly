@@ -59,7 +59,6 @@ Emscripten is a compiler toolchain that compiles C and C++ into WebAssembly. To 
 To compile `retail_price.cpp` into WebAssembly, use Emscripten with the following command:
 ```bash
 emcc retail_price.cpp -o retail_price.wasm -s EXPORTED_FUNCTIONS="['_calculateRetail']" --no-entry -s STANDALONE_WASM
-Now you're ready to start building your WebAssembly application using C++!
 ```
 
 #### 2.	Run Your Application:
